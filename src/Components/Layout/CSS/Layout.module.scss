@@ -1,0 +1,32 @@
+.my_lay
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+// .left{
+//     // width: 20%;
+//     // background-color: aquamarine;
+// }
+.right
+{
+    width: 100%;
+    margin-left: 250px;
+    background-color: #F4F2EE;
+    padding: {
+        left: 10px;
+        top: 10px;
+    };
+}
+
+
+
+@media (max-width: 768px) {
+    .right{
+        margin-left: 0;
+    }
+}

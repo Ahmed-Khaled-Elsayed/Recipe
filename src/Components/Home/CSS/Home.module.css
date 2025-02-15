@@ -1,0 +1,18 @@
+.home {
+  padding: 15px;
+}
+.home .meals_container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.home .categories_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,14 @@
+.heading {
+  margin: 0;
+  margin-bottom: 15px;
+  padding-left: 3px;
+  padding-bottom: 3px;
+  border-bottom: 4px solid #E5E7EB;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid #E5E7EB;
+}/*# sourceMappingURL=Ingredients.module.css.map */

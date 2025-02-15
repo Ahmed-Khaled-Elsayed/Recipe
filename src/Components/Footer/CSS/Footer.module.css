@@ -1,0 +1,30 @@
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10%;
+  height: 150px;
+  background-color: white;
+  z-index: 2;
+}
+.foot .image {
+  width: 90px;
+  z-index: 10;
+}
+@media (max-width: 1024px) {
+  .foot {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 768px) {
+  .foot {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 5%;
+    text-align: center;
+  }
+  .foot .image {
+    width: 70px;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,32 @@
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10%;
+    height: 150px;
+    background-color: white;
+    z-index: 2;
+  
+    .image {
+      width: 90px;
+      z-index: 10;
+    }
+  
+   
+    @media (max-width: 1024px) {
+      padding: 0 5%; 
+    }
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 5%;
+      text-align: center;
+  
+      .image {
+        width: 70px; 
+      }
+    }
+  }
+  
