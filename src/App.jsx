@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Home from './Components/Home/Home.jsx'
 import Details from './Components/Details/Details'
@@ -9,7 +9,7 @@ import MealCard from './Components/MealCard/MealCard.jsx'
 
 function App() {
   
-  const route = createBrowserRouter([
+  const route = createHashRouter ([
     {path:"" , element:<Layout/> ,children :[
       {path:"/" , element:<Home/>},
       {path:"/details" , element:<Details/> },
